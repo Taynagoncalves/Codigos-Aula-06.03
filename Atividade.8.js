@@ -7,14 +7,21 @@ OBJETIVO: Faça um programa que receba 10 números inteiros, calcule e mostre a 
 de números pares e a quantidade de números ímpares.
 ---------------------------------------------------------------------------------------------
 */
-let numeros = [1,2,3,4,5,6,7,8,9,10];
-let pares = 0;
-let impares = 0;
-for(let i=0; i<10; i++){
-    if(numeros[i]%2 ==0){
-        pares++;
-    }
-    else{
-        impares++;
+   
+
+ let numeros = [7, 19, 22, 88, 102, 32, 90, 111, 99, 2];
+ let par = 0;
+ let impar = 0; 
+ 
+ for (let i = 0; i < numeros[i] ; i++) {
+    if (numeros[i] % 2 === 0) {
+        par++;
+    } else {
+        impar++;
     }
 }
+
+console.log("Quantidade de números pares: " + par);
+console.log("Quantidade de números ímpares: " + impar);
+
+

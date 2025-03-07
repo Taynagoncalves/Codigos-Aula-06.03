@@ -8,9 +8,9 @@ mensagem indicando o resultado.
 ---------------------------------------------------------------------------------------------
 */
 
-  let numero = 10;
-   if(numero % 2 == 0){
-      console.log("O numero é PAR");
-   }else{
-        console.log("O numero é IMPAR");
-   }
+let numero = 10;
+if(numero % 2 == 0){
+   console.log("O numero é PAR");
+}else{
+     console.log("O numero é IMPAR");
+}

@@ -7,12 +7,14 @@ OBJETIVO: Faça um programa que leia 2 números, some-os e exiba uma mensagem co
 resultado apenas se o resultado for maior que 100.
 ---------------------------------------------------------------------------------------------
 */
-  let num1 = 10;
-    let num2 = 30;
-    let soma = num1 +num2;
-    if(soma > 100){
-        console.log("O resultado da soma é ", soma);   
+let num1 = 10;
+let num2 = 200;
+let soma = num1 + num2;
 
-    } else {
-        console.log("O resultado da soma é menor que 100");
-    }
+   if(soma > 100){
+    
+    console.log("O resultado da soma é ", soma);   
+
+} else {
+    console.log("O resultado da soma é menor que 100");
+}

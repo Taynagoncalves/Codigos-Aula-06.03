@@ -12,7 +12,15 @@ retorne seu desempenho. Considere que:
 */
 
  let nomeAluno = "Tayna";
-    let nomeUC = "Matematica";
-    let notaAluno = 7;
-   
+ let nomeUC =  "Matematica";
+ let nota = 10;
 
+   if(nota >= 0 && nota <= 6){
+      console.log("O aluno", nomeAluno,  "da UC", nomeUC, "teve um baixo desempenho");
+   } else if(nota >= 6 && nota <= 8){
+      console.log("O aluno", nomeAluno, "da UC", nomeUC, "teve um bom desempenho ");
+   }  
+     else if(nota >= 8 && nota <= 10){
+        console.log("O aluno", nomeAluno, "da UC", nomeUC, "teve um execelente desempenho"); 
+           
+     }
